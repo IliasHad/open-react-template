@@ -1,99 +1,134 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Free React landing page template
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+![Open React template preview](https://user-images.githubusercontent.com/2683512/78789364-545e7100-79ad-11ea-9e3c-9528c99cda8e.png)
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+**Open** is a **free React landing page template designed** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
 
-## 🚀 Quick start
+Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
 
-1.  **Create a Gatsby site.**
+Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+## Live demo
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
 
-1.  **Start developing.**
+## Table of contents
 
-    Navigate into your new site’s directory and start it up.
+* [Usage](#usage)
+  * [Available Scripts](#available-scripts)
+    * [npm start](#npm-start)
+    * [npm test](#npm-test)
+    * [npm run build](#npm-run-build)
+    * [npm run eject](#npm-run-eject)
+  * [Learn More](#learn-more)
+    * [Code Splitting](#code-splitting)
+    * [Analyzing the Bundle Size](#analyzing-the-bundle-size)
+    * [Making a Progressive Web App](#making-a-progressive-web-app)
+    * [Advanced Configuration](#advanced-configuration)
+    * [Deployment](#deployment)
+    * [npm run build fails to minify](#npm-run-build-fails-to-minify)
+  * [Google Analytics Setup](#google-analytics-setup)
+* [Credits](#credits)
+* [Terms and License](#terms-and-license)
+* [About Us](#about-us)
+* [Stay in the loop](#stay-in-the-loop)
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+## Usage
 
-1.  **Open the source code and start editing!**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    Your site is now running at `http://localhost:8000`!
+### Available Scripts
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+In the project directory, you can run:
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+#### `npm install`
+To install the dependencies package.
 
-## 🧐 What's inside?
+#### `npm start`
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+#### `npm test`
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+#### `npm run build`
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+#### `npm run eject`
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+### Learn More
 
-## 🎓 Learning Gatsby
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+#### Code Splitting
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-## 💫 Deploy
+#### Analyzing the Bundle Size
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
+#### Making a Progressive Web App
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+#### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+#### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+#### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Google Analytics Setup
+
+This template uses the [React Google Analytics Module](https://github.com/react-ga/react-ga).
+
+In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).
+
+## Credits
+
+- [Nucleo](https://nucleoapp.com/)
+- [Unsplash](https://unsplash.com/)
+
+## Terms and License
+
+- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
+- Copyright 2020 [Cruip](https://cruip.com/).
+- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Attribution is not required, although it is really appreciated.
+
+## About Us
+
+We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+
+## Stay in the loop
+
+If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
